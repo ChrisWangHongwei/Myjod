@@ -2,7 +2,7 @@
  * Name  wanghongwei
  * Date  2017/6/3
  */
-public class StrongClass extends Father {
+/*public class StrongClass extends Father {
     public void set() {
         super.get();
     }
@@ -13,7 +13,10 @@ public class StrongClass extends Father {
     }
 }
 class Father {
+    public Father(Work mother) {
+    }
+
     public void get() {
         System.out.println("father is way");
     }
-}
+}*/
