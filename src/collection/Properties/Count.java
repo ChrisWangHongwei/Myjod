@@ -12,7 +12,7 @@ import java.util.Properties;
  */
 public class Count {
     public static void main(String[] args) throws Exception {
-        File file = new File("E:/runtime.properties");
+        File file = new File("E:/runtime.txt");
         if(!file.exists()) {
             file.createNewFile();
         }
